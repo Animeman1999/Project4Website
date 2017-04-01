@@ -1,0 +1,45 @@
+﻿#ProductContent {
+    
+    color:darkmagenta;
+}
+
+#ProductContent h2 {
+    font-family:'Matura MT Script Capitals';
+    font-weight: bolder;
+    page-break-after: avoid;
+    color: #800000;
+}
+#ProductContent p {
+    color:black;
+}
+
+.GridView1 {
+        border-color:black;
+    }
+
+.GridView1 th {
+    padding:10px;
+}
+
+.GridView1 td {
+    padding:5px;
+}
+
+.header {
+    background-color: blue;
+    color:yellow;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    text-align: center;
+}
+
+.rows {
+    background-color:darkturquoise;
+    font-family:Arial;
+    color:black;
+}
+
+.rowsAlternating {
+    color:black;
+    background-color:aqua;
+}

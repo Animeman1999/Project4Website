@@ -1,0 +1,12 @@
+﻿#Home{
+    color:darkblue;
+}
+#Home p {
+    color:darkturquoise;
+    font-weight:bold;
+}
+
+#Home h1{
+    font-weight:bolder;
+    font-size:46px;
+}

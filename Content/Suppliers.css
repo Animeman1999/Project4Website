@@ -1,0 +1,48 @@
+﻿#Suppliers {
+    color:darkblue;
+}
+
+    #Suppliers h2 {
+        font-weight: bolder;
+        page-break-after: avoid;
+        color:darkslateblue;
+        font-family:fantasy;
+    }
+
+#Suppliers p {
+    font-family:'Century Gothic';
+}
+
+.SuppliersGridView {
+    color: #5D7B9D;
+    border-color: black;
+    padding: 4px;
+    color: #333333;
+}
+
+    .SuppliersGridView th {
+        padding: 10px;
+    }
+
+    .SuppliersGridView td {
+        padding: 5px;
+    }
+
+.headerSuppliers {
+    background-color:coral;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    text-align: center;
+}
+
+.rowsSuppliers {
+    background-color:blanchedalmond;
+    font-family: Arial;
+    color: black;
+}
+
+.rowsAlternatingSuppliers {
+    color: #284775;
+    background-color:burlywood;
+}

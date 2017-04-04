@@ -2,7 +2,7 @@
 # CIS 212 Advanced Visual Basic
 ## Jeffrey Martin
 
-## Pages Eddited
+## Pages Added/Eddited
 
 Site.master
 Content/Customers.css
@@ -15,3 +15,6 @@ Products.aspx
 Suppliers.aspx
 
 Web.config - Connection string only
+
+## Database used was Northwind
+Northwind.Bak is in the ProjectwWebsite folder.

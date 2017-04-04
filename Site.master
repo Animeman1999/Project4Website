@@ -1,11 +1,13 @@
 ﻿<%@ Master Language="VB" AutoEventWireup="true" CodeFile="Site.master.vb" Inherits="SiteMaster" %>
 
 <!DOCTYPE html>
-
 <html lang="en">
+
 <head runat="server">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <%--   Concatinates the Page.Title with Northwind on the Tabs of the browser--%>
     <title><%: Page.Title %> - Northwind</title>
 
     <asp:PlaceHolder runat="server">
@@ -13,16 +15,20 @@
     </asp:PlaceHolder>
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+    <%--This links up the stylesheets to the pages.--%>
     <link href="Content/Products.css" rel="stylesheet" />
     <link href="Content/Customers.css" rel="stylesheet" />
     <link href="Content/Home.css" rel="stylesheet" />
     <link href="Content/Suppliers.css" rel="stylesheet" />
+
 </head>
+
 <body>
+
     <form runat="server">
         <asp:ScriptManager runat="server">
             <Scripts>
-                <%--To learn more about bundling scripts in ScriptManager see https://go.microsoft.com/fwlink/?LinkID=301884 --%>
                 <%--Framework Scripts--%>
                 <asp:ScriptReference Name="MsAjaxBundle" />
                 <asp:ScriptReference Name="jquery" />
@@ -41,6 +47,8 @@
             </Scripts>
         </asp:ScriptManager>
 
+        <%--Navigation Bar on the top of each page. While this is in the body of the webpage, stylisticly it acts as the heading of each page.--%>
+
         <div class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
@@ -49,11 +57,14 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
+
+                    <%--When the text here is clicked it will navigate to the default page.--%>
                     <a class="navbar-brand" runat="server" href="~/">Northwind</a>
                 </div>
                 <div class="navbar-collapse collapse">
+
+                    <%--List of pages in the navigation bar to be navigated to when clicked on.--%>
                     <ul class="nav navbar-nav">
-                        <%--<li><a runat="server" href="~/">Home</a></li>--%>
                         <li><a runat="server" href="~/Customers">Customers</a></li>
                         <li><a runat="server" href="~/Products">Products</a></li>
                         <li><a runat="server" href="~/Suppliers">Suppliers</a></li>
@@ -61,13 +72,17 @@
                 </div>
             </div>
         </div>
+        
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <hr />
+
+            <%--This is what will appear on the bottom of each page, the footer--%>
             <footer>
                 <p>  <img alt="" src="Images/Northwind.jpg" /> &copy; <%: DateTime.Now.Year %> Jeffrey Martin</p>
             </footer>
+
         </div>
     </form>
 </body>

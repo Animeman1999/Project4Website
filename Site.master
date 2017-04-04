@@ -1,4 +1,8 @@
-﻿<%@ Master Language="VB" AutoEventWireup="true" CodeFile="Site.master.vb" Inherits="SiteMaster" %>
+﻿<%--Basic Website with Data - Project4
+    CIS 212 Advanced visual Basic
+    Jeffrey Martin--%>
+
+<%@ Master Language="VB" AutoEventWireup="true" CodeFile="Site.master.vb" Inherits="SiteMaster" %>
 
 <!DOCTYPE html>
 <html lang="en">

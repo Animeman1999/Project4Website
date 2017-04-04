@@ -4,24 +4,14 @@
 
 ## Pages Eddited
 
-### Site.master
+Site.master
+Content/Customers.css
+Content/Home.css
+Content/Product.css
+Content/Suppliers.css
+Default.aspx
+Customers.aspx
+Products.aspx
+Suppliers.aspx
 
-### Site.master.vb
-
-### Content/Customers.css
-
-### Content/Home.css
-
-### Content/Product.css
-
-### Content/Suppliers.css
-
-### Default.aspx
-
-### Customers.aspx
-
-### Products.aspx
-
-### Suppliers.aspx
-
-### Web.config
+Web.config - Connection string only
